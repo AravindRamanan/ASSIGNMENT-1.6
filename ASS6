@@ -29,5 +29,19 @@ System.out.println(sum);
 
 3)
 import java.util.scanner;
-public class acad{
-public static 
+public class acad{ 
+public static void main(String[] args){
+acad o=new acad; 
+o.sum(); 
+} 
+void sum () 
+{
+Scanner in=new Scanner(System.in); 
+System.out.println("Enter the Numbers"); 
+int a=in.nextInt(); 
+int b=in.nextInt(); 
+int sum=a+b; 
+system.out.println(sum); 
+} 
+} 
+}
