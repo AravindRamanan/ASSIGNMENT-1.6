@@ -41,7 +41,7 @@ System.out.println("Enter the Numbers");
 int a=in.nextInt(); 
 int b=in.nextInt(); 
 int sum=a+b; 
-system.out.println(sum); 
+System.out.println(sum); 
 } 
 } 
 }
